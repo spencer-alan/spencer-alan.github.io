@@ -4,7 +4,7 @@ import Nav from "../components/Nav/nav";
 import Footer from "../components/Footer/footer";
 import { Container, Row, Col } from "../components/Grid";
 import Card from "../components/Card/card";
-import shelf from "../images/screenshots/shelf_kepper_screenshot.png";
+import shelf from "../images/screenshots/shelf_keeper_screenshot.png";
 
 function Projects() {
 	return (
