@@ -16,20 +16,22 @@ function Card({ screenshot, github, deployed, title, info }) {
 				<p className="card-text">{info}</p>
 				<div className="d-flex justify-content-between align-items-center">
 					<div className="btn-group">
-						<button
+						<a
 							type="button"
 							href={github}
 							className="btn btn-sm btn-outline-secondary"
+							target="_blank"
 						>
 							Github
-						</button>
-						<button
+						</a>
+						<a
 							type="button"
 							href={deployed}
 							className="btn btn-sm btn-outline-secondary"
+							target="_blank"
 						>
 							Deployed
-						</button>
+						</a>
 					</div>
 				</div>
 			</div>
